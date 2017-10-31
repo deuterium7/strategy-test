@@ -1,0 +1,27 @@
+{
+  "name": "zabornyi/strategy-test",
+  "description": "Some test Strategy",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexander Zabornyi",
+      "email": "post0778@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlexanderZabornyi\\StrategyTest\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AlexanderZabornyi\\StrategyTest\\Tests\\": "tests"
+    }
+  }
+}
